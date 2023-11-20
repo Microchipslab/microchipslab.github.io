@@ -67,8 +67,7 @@ article {
 	display: inline;
 }
 .mainHeader nav a:link, .mainHeader nav a:visited { /* Link text colour */
-	/*color: #81d7e6;*/
-	color: #1C8AC9;
+	color: #81d7e6;
 	display: inline-block;
 	height: 30px;
 	padding: 5px 23px;
