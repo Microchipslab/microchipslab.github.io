@@ -17,8 +17,8 @@ html {
 .wrap {
 		/*max-width: 925px;*/
         max-width: 1000px;
-        /*margin: 50px auto;*/
-		/*padding: 30px 40px;*/
+        margin: 50px auto;
+		padding: 30px 40px;
 		text-align: center;
 		box-shadow: 0 4px 25px -4px #656565;
 		background: #F1F1F1;
