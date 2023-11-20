@@ -163,13 +163,14 @@ a:active {
 }
 
 .centered {
-    /*position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);*/
+    transform: translate(-50%, -50%);
 }
 .container h1 {
-	font-size: 45px;
+	/*font-size: 38px;*/
+	font-size: 40px;
 	padding-top: 242px;
 	/*color: #FFF;*/
 	color: #1C8AC9;
