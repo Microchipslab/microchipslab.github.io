@@ -69,7 +69,7 @@ article {
 .mainHeader nav a:link, .mainHeader nav a:visited { /* Link text colour */
 	/*color: #81d7e6;*/
 	/*color: #47FFFF;*/
-	color: #FFF;
+	color: #F1F1F1;
 	display: inline-block;
 	height: 30px;
 	padding: 5px 23px;
@@ -82,7 +82,7 @@ article {
 	/*background: #98D323;*/
   /*background: #81d7e6;*/
 	/*Background: #47FFFF;*/
-	background: #FFF;
+	background: #F1F1F1;
 	/*color: #000;*/
   /*color:#000;*/ /* Text colour on hover */
 	color: #12214C;
