@@ -25,13 +25,3 @@ function includeHTML() {
     }
   }
 }
-
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.className += " red";
-}

@@ -226,3 +226,13 @@ a:active {
 .domain::before {
 	content: "\0040";    /* Unicode character for @ symbol */
 }
+
+body#home a#homenav,
+body#projects a#projectsnav,
+body#tutorials a#tutorialsnav,
+body#items a#itemsnav,
+body#disclaimer a#disclaimernav,
+body#contact a#connav {
+		color: #fff;
+		background: #930;
+}
