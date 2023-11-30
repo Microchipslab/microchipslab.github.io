@@ -13,6 +13,16 @@ html {
 	-ms-text-size-adjust:     100%; /* Control text size in safari for ios without disabling userzoom */
 
 }
+/* highlight pages on nav menu bar*/
+body#home a#homenav,
+body#projects a#projectsnav,
+body#tutorials a#tutorialsnav,
+body#items a#itemsnav,
+body#disclaimer a#disclaimernav,
+body#contact a#contactnav {
+	color: #12214C;
+	background: #F1F1F1;
+}
 
 .wrap {
 	/*max-width: 925px;*/
@@ -225,14 +235,4 @@ a:active {
 /*email*/
 .domain::before {
 	content: "\0040";    /* Unicode character for @ symbol */
-}
-
-body#home a#homenav,
-body#projects a#projectsnav,
-body#tutorials a#tutorialsnav,
-body#items a#itemsnav,
-body#disclaimer a#disclaimernav,
-body#contact a#contactnav {
-		color: #12214C;
-		background: #F1F1F1;
 }
