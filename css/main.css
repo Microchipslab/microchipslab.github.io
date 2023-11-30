@@ -82,7 +82,8 @@ article {
   /*background: #81d7e6;*/
 	Background: #47FFFF;
 	/*color: #000;*/
-  color:#000; /* Text colour on hover */
+  /*color:#000;*/ /* Text colour on hover */
+	color: #12214C;
 	text-shadow: none !important;
 }
 .mainHeader nav li a {
