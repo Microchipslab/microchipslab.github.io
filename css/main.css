@@ -2,8 +2,8 @@ body {
 	font-family: Noto Sans, Arial, Helvetica, serif;
 	font-size: 150%;
 	background: #f2eedd url("../img/rice_paper_v3.png") repeat round;
-    /*background: #f2eedd url("../img/Background-01-1920x1080.jpg") no-repeat center fixed;
-    background-size: cover;*/
+  /*background: #f2eedd url("../img/Background-01-1920x1080.jpg") no-repeat center fixed;
+  background-size: cover;*/
 }
 
 html {
@@ -15,31 +15,31 @@ html {
 }
 
 .wrap {
-		/*max-width: 925px;*/
-        max-width: 1000px;
-        margin: 50px auto;
-		padding: 30px 40px;
-		text-align: center;
-		box-shadow: 0 4px 25px -4px #656565;
-		background: #F1F1F1;
+	/*max-width: 925px;*/
+  max-width: 1000px;
+  margin: 50px auto;
+	padding: 30px 40px;
+	text-align: center;
+	box-shadow: 0 4px 25px -4px #656565;
+	background: #F1F1F1;
 }
 
 article {
-		text-align: left;
-		padding: 0px 40px 40px 40px;
-		line-height: 150%;
+	text-align: left;
+	padding: 0px 40px 40px 40px;
+	line-height: 150%;
 }
 
 .bolder {
 	font-weight: bolder;
 }
 .disclaimer {
-    border: 1px solid red;
-    border-radius: 8px;
-    padding: 4px;
-    font-size: 1.0em;
-    color: red;
-    font-weight: bolder;
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 4px;
+  font-size: 1.0em;
+  color: red;
+  font-weight: bolder;
 }
 
 /* ===========================
@@ -107,18 +107,17 @@ a:link {
 /* visited link */
 a:visited {
 	color: #753B00;
-    font-weight: bolder;
+  font-weight: bolder;
 }
 /* mouse over link */
 a:hover {
 	color: #753B00;
-    /*background-color: cornsilk;*/
+  /*background-color: cornsilk;*/
 
 }
 /* selected link */
 a:active {
 	color: #753B00;
-
 }
 
 /*
@@ -126,7 +125,7 @@ a:active {
 */
  /* unvisited link */
 . menu a:link {
-    /*color: #443d96;*/
+  /*color: #443d96;*/
 	color: #BCD74A;
 }
 /* visited link */
@@ -136,12 +135,12 @@ a:active {
 }
 /* mouse over link */
 .menu a:hover {
-    /*color: #b40f7b;*/
+  /*color: #b40f7b;*/
 	color: #FFD136;
 }
 /* selected link */
 .menu a:active {
-    /*color: #443d96;*/
+  /*color: #443d96;*/
 	color: #BCD74A;
 }
 
@@ -149,7 +148,7 @@ a:active {
 	border-radius: 15px 15px 0px 0px;
 	-moz-border-radius: 15px 15px 0px 0px;
 	-webkit-border-radius: 15px 15px 0px 0px;
-	background: url(../img/header-banner-01.jpg);
+	background: url(../img/header-banner-03.jpg);
 	background-position: left top;
 	background-repeat: repeat;
 	padding: 0px;
@@ -159,9 +158,9 @@ a:active {
 }
 
 .container {
-    position: relative;
-    text-align: center;
-    color: #036503;
+  position: relative;
+  text-align: center;
+  color: #036503;
 }
 
 .centered {
