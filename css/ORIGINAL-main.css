@@ -11,11 +11,8 @@ body {
 
 div.container {
   max-width: 1000px;
-  /*margin: 50px auto;*/
   margin: 0px auto;
   padding: 0px;
-  /*30px 40px;*/
-  /*text-align: center;*/
   box-shadow: 0 4px 25px -4px #656565;
   background: #F9F9F9;
 }
@@ -23,14 +20,11 @@ div.container {
 /* Header/logo Title */
 .header {
   padding: 10px 10px 10px 30px;
-  /*10px;*/
   text-align: left;
-  /*background: cornflowerblue url("/img/Mm1emf_comms_header_1.png");*/
-  /* #F7F7F7;*/
-  background: #00A0A2 url("../img/m1emf-comms-header-dodgerblue-01.png");
-  color: #23393C;
-  /* horizontal shadow - vertical shadow - blur - colour */
-  /*text-shadow: 4px 4px 4px red;*/
+  /*background: #00A0A2 url("../img/m1emf-comms-header-teal-01.png");*/
+  background: #FFF url("../img/microchips-lab-header-banner-03a.jpg");
+  /*color: #23393C;*/
+  color: #243059;
   text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
   background-position: left top;
   background-repeat: repeat;
@@ -38,37 +32,28 @@ div.container {
   height: 160px;
   filter: none;
   text-decoration: none;
+  text-shadow: 2px;
 }
-/*
-#HeaderBGimg {
-	background: url("../img/Mm1emf_comms_header_1.png");
-	background-position: left top;
-	background-repeat: repeat;
-	padding: 0px;
-	width: auto;
-	height: 245px;
-}
-*/
+
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
   font-weight: bold;
-  /*text-shadow: 5px 5px 4px #000;*/
-  /*color: #81D7E6;*/
+  text-shadow: 2px;
 }
+
 /* remove link attributes from H1 */
 h1.header a:link,
 .header a:visited,
 .header a:hover,
 .header a:active {
-  /*background-color: black;*/
-  color: #23393C;
-  /*padding: 14px 25px;*/
+  color: #202D56;
   text-align: center;
   text-decoration: none;
   background: transparent;
   display: inline-block;
 }
+
 .header p {
   font-weight: bold;
 }
@@ -77,21 +62,24 @@ h1.header a:link,
 /* default link style */
 a:link {
   text-decoration: none;
-  color: #23393C;
+  color: #202D56;
 }
+
 a:visited {
   text-decoration: none;
-  color: #23393C;
+  color: #202D56;
 }
+
 a:hover {
   text-decoration: underline;
-  color: #23393C;
+  color: #202D56;
   /*background-color: #EDF8F9;*/
-  background-color: #FFF7CE;
+  background-color: #444444;
 }
+
 a:active {
   text-decoration: none;
-  color: #23393C;
+  color: #202D56;
 }
 
 
@@ -101,49 +89,34 @@ a:active {
 .topnav {
   overflow: hidden;
   background-color: #444444;
-  /*#09A8F1;*/
-  /* #09A8F1;*/
 }
-/*
+
 .topnav a {
   float: left;
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-*/
-.topnav a {
-  float: left;
-  display: block;
-  color: #C6E2FF;
-  /*#00F1F5;*/
-  /* #000;*/
+  /*color: #05FFE2;*/
+  color: #fff;
   text-align: center;
   padding: 12px 18px;
-  /*10px 12px;*/
   text-decoration: none;
   font-size: 17px;
-  /*17px;*/
   text-transform: capitalize;
   font-family: 'Source Sans Pro', sans-serif;
-  /*font-weight: bold;*/
 }
+
 .topnav a:hover {
-  background-color: #79CEF6;
-  /* #7BD1FB;*/
-  /* #81D7E6;*/
-  color: #000000;
+/*background-color: #1A2B2D;*/
+  background: #444;
+  /*color: #FFFFFF;*/
+  color: #202D56;
+  font-style: italic;
 }
+
 .topnav a.active {
-  background-color: #79CEF6;
-  /* #81D7E6;*/
-  color: #000000;
+  background-color: #444;
+  color: #202D56;
 }
+
 .topnav .icon {
   display: none;
 }
@@ -175,7 +148,6 @@ a:active {
     float: none;
     display: block;
     text-align: center;
-    /*Added 20/02/23 @ 13:00*/
   }
 }
 
@@ -191,14 +163,12 @@ img {
   filter: drop-shadow(0px 0px 2px #000);
 }
 
-img.center {
+
+.imageResponsive {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.imageResponsive {
-  width: 100%;
+  width: 80%;
   max-width: 150px;
   height: auto;
 }
@@ -210,22 +180,25 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
 th {
-  border: 1px solid #000;
-  background-color: #79CEF6;
-  color: #000;
+  border: 1px solid #2b7272;/* #000;*/
+  background-color: #00D7D7;/* #00ABAD;*/
+  color: #1D3434;/*#000;*/
   text-align: center;
   font-weight: normal;
   padding: 4px;
 }
+
 td {
-  border: 1px solid #000;
+  border: 1px solid #2b7272;/* #000;*/
   text-align: left;
   padding: 4px;
   font-weight: normal;
 }
+
 tr:nth-child(odd) {
-  background-color: #dddddd;
+  background-color: #D3EFF1;/* #EDF8F9;*//*#dddddd;*/
 }
 
 
@@ -245,10 +218,11 @@ tr:nth-child(odd) {
   -ms-flex: 20%;
   /* IE10 */
   flex: 20%;
-  background-color: #E1F0FF;
-  border-left-color: #C4E1FF;
+  background-color: #EDF8F9;
   padding: 20px;
+  border-left: 1px solid #D9F0F2;
 }
+
 .side p {
   font-size: 14px;
 }
@@ -262,72 +236,58 @@ tr:nth-child(odd) {
   padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
   background: #444444;
-  /*#028EB2;*/
-  color: #C7E4FF;
-  /*#028EB2;*/
-  /*#FFFFFF;*/
+  color: #05FFE2;
 }
+
 /* Footer links */
 .footer a {
   font-size: 12px;
-  /*line-height: 1.5;  */
   text-decoration: none;
   color: #FFFFFF;
 }
+
 .footer a:link {
   text-decoration: none;
   color: #FFFFFF;
 }
+
 .footer a:visited {
   text-decoration: none;
   color: #FFFFFF;
 }
+
 .footer a:hover {
   text-decoration: underline;
   color: #F9CD01;
   background-color: transparent;
 }
+
 .footer a:active {
   text-decoration: none;
-  color: #23393C;
+  color: #202D56;
 }
 
 
-/* social media icons */
-/* Add a hover effect if you want */
 /*
-.Smedia:hover {
-  opacity: 0.7;
-  text-decoration: none;
-}
-.Smedia.gab {
-  background-color:  #00D178;
-  text-decoration: none;
-}
+Responsive layout - when the screen is less than 700px wide,
+make the two columns stack on top of each other instead of next to each other
 */
-
-
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {
     flex-direction: column;
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/*
+Responsive layout - when the screen is less than 400px wide,
+make the navigation links stack on top of each other instead of next to each other
+*/
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
