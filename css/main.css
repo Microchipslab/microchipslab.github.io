@@ -138,13 +138,13 @@ a:active {
   background: #79CEF6;
   /* #7BD1FB;*/
   /* #81D7E6;*/
-  color: #000000;
+  color: #E1F0FF;
 }
 .topnav a.active {
   /*background-color: #79CEF6;*/
   background-color:  #79CEF6;
   /* #81D7E6;*/
-  color: #000000;
+  color: #E1F0FF;
 }
 .topnav .icon {
   display: none;
