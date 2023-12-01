@@ -32,6 +32,7 @@ div.container {
   height: 160px;
   filter: none;
   text-decoration: none;
+  text-shadow:
 }
 
 /* Increase the font size of the heading */
@@ -107,7 +108,7 @@ a:active {
 }
 
 .topnav a.active {
-  background-color: #FAD000;
+  background-color: #000;
   color: #202D56;
 }
 
