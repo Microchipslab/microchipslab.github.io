@@ -248,7 +248,7 @@ tr:nth-child(odd) {
   /* IE10 */
   flex: 20%;
   background-color: #E1F0FF;
-  border-left-color: #C4E1FF;
+  border-left-color: #79CEF6;
   padding: 20px;
 }
 .side p {
