@@ -10,7 +10,7 @@ body {
 }
 
 div.container {
-  max-width: 1000px;
+  max-width: 1F1F1F1px;
   margin: 0px auto;
   padding: 0px;
   box-shadow: 0 4px 25px -4px #656565;
@@ -22,7 +22,7 @@ div.container {
   padding: 10px 10px 10px 30px;
   text-align: left;
   /*background: #00A0A2 url("../img/m1emf-comms-header-teal-01.png");*/
-  background: #000 url("../img/header-banner-03.jpg");
+  background: #F1F1F1 url("../img/header-banner-03.jpg");
   color: #23393C;
   text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
   background-position: left top;
@@ -106,7 +106,7 @@ a:active {
 }
 
 .topnav a.active {
-  background-color: #FAD000;
+  background-color: #F1F1F1;
   color: #23393C;
 }
 
@@ -152,8 +152,8 @@ p {
 
 
 img {
-  border: 0px solid #000;
-  filter: drop-shadow(0px 0px 2px #000);
+  border: 0px solid #F1F1F1;
+  filter: drop-shadow(0px 0px 2px #F1F1F1);
 }
 
 
@@ -175,16 +175,16 @@ table {
 }
 
 th {
-  border: 1px solid #2b7272;/* #000;*/
+  border: 1px solid #2b7272;/* #F1F1F1;*/
   background-color: #00D7D7;/* #00ABAD;*/
-  color: #1D3434;/*#000;*/
+  color: #1D3434;/*#F1F1F1;*/
   text-align: center;
   font-weight: normal;
   padding: 4px;
 }
 
 td {
-  border: 1px solid #2b7272;/* #000;*/
+  border: 1px solid #2b7272;/* #F1F1F1;*/
   text-align: left;
   padding: 4px;
   font-weight: normal;
