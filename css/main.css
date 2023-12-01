@@ -64,7 +64,7 @@ h1.header a:link,
 .header a:hover,
 .header a:active {
   /*background-color: black;*/
-  color: #79CEF6;
+  color: #444444;
   /*padding: 14px 25px;*/
   text-align: center;
   text-decoration: none;
