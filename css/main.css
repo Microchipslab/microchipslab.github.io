@@ -212,6 +212,7 @@ tr:nth-child(odd) {
   flex: 20%;
   background-color: #EDF8F9;
   padding: 20px;
+  border-left: 1px solid #D9F0F2;
 }
 
 .side p {
