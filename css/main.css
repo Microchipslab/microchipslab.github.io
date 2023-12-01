@@ -134,13 +134,15 @@ a:active {
   /*font-weight: bold;*/
 }
 .topnav a:hover {
-  background-color: #79CEF6;
+  /*background-color: #79CEF6;*/
+  background: #FFFFFF;
   /* #7BD1FB;*/
   /* #81D7E6;*/
   color: #000000;
 }
 .topnav a.active {
-  background-color: #79CEF6;
+  /*background-color: #79CEF6;*/
+  background-color:  #FFFFFF;
   /* #81D7E6;*/
   color: #000000;
 }
