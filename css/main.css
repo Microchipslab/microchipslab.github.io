@@ -55,6 +55,7 @@ div.container {
   font-weight: bold;
   /*text-shadow: 5px 5px 4px #000;*/
   /*color: #81D7E6;*/
+  font-style: italic;
 }
 /* remove link attributes from H1 */
 h1.header a:link,
