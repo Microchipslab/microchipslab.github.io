@@ -32,13 +32,14 @@ div.container {
   height: 160px;
   filter: none;
   text-decoration: none;
-  text-shadow:
+  text-shadow: 2px;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
   font-weight: bold;
+  text-shadow: 2px;
 }
 
 /* remove link attributes from H1 */
@@ -105,7 +106,7 @@ a:active {
 
 .topnav a:hover {
 /*background-color: #1A2B2D;*/
-  background: #000;
+  background: #444;
   /*color: #FFFFFF;*/
   color: #202D56;
   font-style: italic;
