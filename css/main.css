@@ -21,7 +21,8 @@ div.container {
 .header {
   padding: 10px 10px 10px 30px;
   text-align: left;
-  background: #00A0A2 url("../img/m1emf-comms-header-teal-01.png");
+  /*background: #00A0A2 url("../img/m1emf-comms-header-teal-01.png");*/
+  background: #000 url("../img/header-banner-03.jpg");
   color: #23393C;
   text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
   background-position: left top;
