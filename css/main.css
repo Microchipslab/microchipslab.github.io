@@ -113,7 +113,7 @@ a:active {
 }
 
 .topnav a.active {
-  background-color: #000;
+  background-color: #444;
   color: #202D56;
 }
 
