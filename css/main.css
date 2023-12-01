@@ -93,7 +93,8 @@ a:active {
 .topnav a {
   float: left;
   display: block;
-  color: #05FFE2;
+  /*color: #05FFE2;*/
+  color: #202D56;
   text-align: center;
   padding: 12px 18px;
   text-decoration: none;
@@ -103,8 +104,10 @@ a:active {
 }
 
 .topnav a:hover {
-  background-color: #1A2B2D;
-  color: #FFFFFF;
+/*background-color: #1A2B2D;*/
+  background: #FFF;
+  /*color: #FFFFFF;*/
+  color: #202D56;
 }
 
 .topnav a.active {
