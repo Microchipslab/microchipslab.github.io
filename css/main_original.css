@@ -174,23 +174,23 @@ table {
 }
 
 th {
-  border: 1px solid #2b7272;/* #000;*/
-  background-color: #00D7D7;/* #00ABAD;*/
-  color: #1D3434;/*#000;*/
+  border: 1px solid #000;
+  background-color: #00ABAD;
+  color: #000;
   text-align: center;
   font-weight: normal;
   padding: 4px;
 }
 
 td {
-  border: 1px solid #2b7272;/* #000;*/
+  border: 1px solid #000;
   text-align: left;
   padding: 4px;
   font-weight: normal;
 }
 
 tr:nth-child(odd) {
-  background-color: #D3EFF1;/* #EDF8F9;*//*#dddddd;*/
+  background-color: #dddddd;
 }
 
 

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Privacy Page | M1EMF</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/func.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <span include-html="inc/header.htm"></span>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.htm" title="Home">Home</a>
+      <a href="projects.htm" title="Projects">Projects</a>
+      <a href="tutorials.htm" title="Tutorials">Tutorials</a>
+      <a href="auction.htm" title="Auction">Auction</a>
+      <a href="privacy.htm" title="Privacy" class="active">Privacy</a>
+      <a href="contact.htm" title="Contact">Contact</a>
+      <a href="links.htm" title="Links">Links</a>
+      <a href="javascript:void(0);" class="icon" onclick="responsiveNAV()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="row">
+
+      <div class="main">
+        <span include-html="inc/privacy_content.htm"></span>
+      </div>
+
+      <div class="side">
+        <span include-html="inc/side_content.htm"></span>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <small>Copyright © 2018-
+        <script>document.write(new Date().getFullYear());</script> M1EMF
+      </small>
+      <br>
+      <span include-html="inc/footer.htm"></span>
+    </div>
+
+  </div>
+
+  <script>includeHTML();</script>
+  <script>responsiveNAV();</script>
+
+</body>
+
+</html>
